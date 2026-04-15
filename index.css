@@ -8,3 +8,9 @@
 html {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
