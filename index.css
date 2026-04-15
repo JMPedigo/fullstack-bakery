@@ -40,16 +40,20 @@ nav {
   background-color: slategray;
   justify-content: space-around;
   font-size: 1.5rem;
-  padding: 0.5rem;
   gap: 1ch;
 }
 
-li {
+ul {
+  flex-direction: column;
   display: flex;
+  gap: 1.5rem;
+  margin: 1em;
+}
+
+li {
   background-color: crimson;
   color: white;
-  gap: 1ch;
-  margin: 0.5em;
+  justify-content: space-around;
   padding: 0.5em;
 }
 
