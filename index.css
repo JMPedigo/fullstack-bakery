@@ -25,6 +25,14 @@ main {
 
 .brand {
   color: crimson;
-  font-size: 3em;
+  font-size: 3rem;
   background-color: silver;
+}
+
+nav {
+  display: flex;
+  background-color: lavenderblush;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  padding-bottom: 0.5ch;
 }
