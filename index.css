@@ -14,3 +14,9 @@ body {
   flex-direction: column;
   height: 100vh;
 }
+
+.brand {
+  color: crimson;
+  font-size: 3em;
+  background-color: silver;
+}
