@@ -11,6 +11,11 @@ html {
   font-size: 1.2em;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -20,21 +25,22 @@ body {
 main {
   display: flex;
   gap: 2ch;
-  flex: 1;
+  flex-grow: 1;
 }
 
 .brand {
   color: crimson;
   font-size: 3rem;
   background-color: silver;
+  flex-grow: 1;
 }
 
 nav {
   display: flex;
-  background-color: lavenderblush;
+  background-color: slategray;
   justify-content: space-around;
   font-size: 1.5rem;
-  padding-bottom: 0.5ch;
+  padding: 0.5rem;
   gap: 1ch;
 }
 
@@ -46,4 +52,13 @@ li {
   margin: 0.5em;
   padding: 0.5em;
   border-radius: 0.5em;
+}
+
+.testimonial {
+  background-color: burlywood;
+}
+
+footer {
+  background-color: cyan;
+  color: purple;
 }
