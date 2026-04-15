@@ -35,4 +35,15 @@ nav {
   justify-content: space-around;
   font-size: 1.5rem;
   padding-bottom: 0.5ch;
+  gap: 1ch;
+}
+
+li {
+  display: flex;
+  background-color: crimson;
+  color: silver;
+  gap: 1ch;
+  margin: 0.5em;
+  padding: 0.5em;
+  border-radius: 0.5em;
 }
